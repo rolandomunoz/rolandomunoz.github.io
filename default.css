@@ -4,7 +4,7 @@
 
 header, footer {
   background-color: grey;
-  color: black;
+  color: white;
   padding: 10px;
   clear: both;
   border: solid 1px;
@@ -17,4 +17,16 @@ nav {
 article {
   clear: right;
   margin-left: 300px;
+}
+
+spam {
+  bold;
+}
+
+p {
+  text-indent: 50px;
+}
+
+a.no_decoration {
+  text-decoration: none;
 }
