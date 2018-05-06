@@ -23,10 +23,6 @@ spam {
   bold;
 }
 
-p {
-  text-indent: 50px;
-}
-
 a.no_decoration {
   text-decoration: none;
 }
