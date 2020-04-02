@@ -1,0 +1,19 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{How to install}{}% 2
+\BOOKMARK [1][-]{section.3}{Getting started}{}% 3
+\BOOKMARK [2][-]{subsection.3.1}{Create}{section.3}% 4
+\BOOKMARK [3][-]{subsubsection.3.1.1}{Sound to TextGrid...}{subsection.3.1}% 5
+\BOOKMARK [3][-]{subsubsection.3.1.2}{Sound to TextGrid \(silences\)...}{subsection.3.1}% 6
+\BOOKMARK [2][-]{subsection.3.2}{Modify}{section.3}% 7
+\BOOKMARK [3][-]{subsubsection.3.2.1}{Convert}{subsection.3.2}% 8
+\BOOKMARK [3][-]{subsubsection.3.2.2}{Insert tier \(special\)}{subsection.3.2}% 9
+\BOOKMARK [3][-]{subsubsection.3.2.3}{Duplicate tier}{subsection.3.2}% 10
+\BOOKMARK [3][-]{subsubsection.3.2.4}{Remove tier}{subsection.3.2}% 11
+\BOOKMARK [3][-]{subsubsection.3.2.5}{Set tier}{subsection.3.2}% 12
+\BOOKMARK [3][-]{subsubsection.3.2.6}{Replace text}{subsection.3.2}% 13
+\BOOKMARK [3][-]{subsubsection.3.2.7}{Replace text \(dictionary\)}{subsection.3.2}% 14
+\BOOKMARK [2][-]{subsection.3.3}{Query}{section.3}% 15
+\BOOKMARK [3][-]{subsubsection.3.3.1}{Get info from annotation files}{subsection.3.3}% 16
+\BOOKMARK [3][-]{subsubsection.3.3.2}{Find annotation files with}{subsection.3.3}% 17
+\BOOKMARK [3][-]{subsubsection.3.3.3}{Report duration}{subsection.3.3}% 18
+\BOOKMARK [2][-]{subsection.3.4}{Clean}{section.3}% 19
