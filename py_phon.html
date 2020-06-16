@@ -4,6 +4,7 @@
 
 <head>
   <title>PyPhon</title>
+  <meta charset="UTF-8">
   <link rel="stylesheet" type="text/css" href="default.css" />
   <meta name="description" content="Phonetic projects" />
   <meta name="keywords" content="Python,Praat,Linguistics,Phonetics,Phonology" />
@@ -34,38 +35,48 @@
 
   <article>
   <h1>PyPhon</h1>
-    <p>A script written in Python to find and report minimal pairs from arrays or a plain text.</p>
+    <p>A set of tools written in Python to help with phonology analysis</p>
     
-    Example 1: Get minimal pairs from an array
+    <h2>Phonetic report</h2>
+    <hr>
+    Example 1: Make a phonetic report and write it to report.txt in a word list file
     <pre>
     <code>
-    words = ['peso', 'perro', 'paso', 'piso', 'a', 'karo', 'karro']
-    test = MinimalPair()
-    test.set_characters_as_one_unit(['sh', 'ch', 'rr'])
-    test.compare_all(words)
-    test.show()
+    python3 cli-mkreport.py -i /home/Desktop/wordList.txt -printf "wWsl" > report.txt
     </code>
     </pre>
+
+    <h2>PhonStats</h2>
+    <hr>
     
-    Example 2: Get minimal pairs from a plain text
+    Example 1: : Get all segments, frequency and check if they belong to a segment inventory in a word list file
     <pre>
     <code>
-    textPath = '/home/rolando/Documents/wordList.txt'    
-    test = Corpus(textPath)
-    test.read(clear = False)
-    test.set_characters_as_one_unit(['sh', 'ch', 'rr'])
-    test.compare_all(list(test.dict_words.keys()))
-    test.show()
-    test.save()
+    python3 cli-phonstat.py -i /home/Desktop/wordList.txt -fe
+    </code>
     </pre>
+
+    <h2>Replace</h2>
+    <hr>
+
+    Example 1: Replace SAMPA "1" to "ɨ" in a word list file
+    <pre>
+    <code>
+    python3 cli-replace.py -i /home/Desktop/wordList.txt -r "1" "ɨ"
+    </code>
+    </pre>
+
+    <h2>Minimal Pairs</h2>
+    <hr>
+    Nothing here
     
   <h3>Download</h3>
     <ul>
-      <li><a href= "https://github.com/rolandomunoz/PyPhon/archive/v0.0.1.zip">PyPhon v0.0.1</a> (latest version)</li>
+      <li><a href= "https://github.com/rolandomunoz/PyPhon">PyPhon (Project)</a> (latest version)</li>
     </ul>
   </article>
   
-  <footer>Copyright &copy; Rolando Mu&ntilde;oz, 2018-2019</footer>
+  <footer>Copyright &copy; Rolando Muñoz, 2018-2020</footer>
   </div>
 </body>
 </html>
