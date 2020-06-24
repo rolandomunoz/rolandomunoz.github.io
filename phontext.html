@@ -3,12 +3,12 @@
 <html lang="en-US">
 
 <head>
-  <title>PyPhon</title>
+  <title>PhonText</title>
   <meta charset="UTF-8">
   <link rel="stylesheet" type="text/css" href="default.css" />
   <meta name="description" content="Phonetic projects" />
   <meta name="keywords" content="Python,Praat,Linguistics,Phonetics,Phonology" />
-  <meta name="author" content="Rolando Mu&ntilde;oz" />
+  <meta name="author" content="Rolando Muñoz Aramburú" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
@@ -28,47 +28,16 @@
       <li><a href= "praat_tools/tg_toolkit.html">TgToolkit</li>
       <li><a href= "praat_tools/tg_draw.html">TgDraw</li>
     </ul>
-    <li><a href= "py_phon.html">PyPhon</li>
+    <li><a href= "phontext.html">phontext</li>
     <li><a href="spanish_vowels.html">Spanish vowels</a></li>
     <li><a href="about_me.html">About me</a></li>
   </nav>
 
   <article>
-  <h1>PyPhon</h1>
-    <p>A set of tools written in Python to help with phonology analysis</p>
-    
-    <h2>Phonetic report</h2>
-    <hr>
-    Example 1: Make a phonetic report and write it to report.txt in a word list file
-    <pre>
-    <code>
-    python3 cli-mkreport.py -i /home/Desktop/wordList.txt -printf "wWsl" > report.txt
-    </code>
-    </pre>
+  <h1>PhonText</h1>
+    <p>PhonText is a project written in Python to help with phonology analysis. With this tool, you can find minimal pairs, parse words into segments and other phonological stuff!!!</p>
+    <p>This project comes in two distributions: a <a href="https://github.com/rolandomunoz/phontext-cli" > command line interface (CLI)</a> and a <a href="https://pypi.org/project/phontext/">python package</a>. Click on the links for more information.</p>
 
-    <h2>PhonStats</h2>
-    <hr>
-    
-    Example 1: : Get all segments, frequency and check if they belong to a segment inventory in a word list file
-    <pre>
-    <code>
-    python3 cli-phonstat.py -i /home/Desktop/wordList.txt -fe
-    </code>
-    </pre>
-
-    <h2>Replace</h2>
-    <hr>
-
-    Example 1: Replace SAMPA "1" to "ɨ" in a word list file
-    <pre>
-    <code>
-    python3 cli-replace.py -i /home/Desktop/wordList.txt -r "1" "ɨ"
-    </code>
-    </pre>
-
-    <h2>Minimal Pairs</h2>
-    <hr>
-    Nothing here
     
   <h3>Download</h3>
     <ul>
@@ -76,7 +45,7 @@
     </ul>
   </article>
   
-  <footer>Copyright &copy; Rolando Muñoz, 2018-2020</footer>
+  <footer>Copyright &copy; Rolando Muñoz Aramburú, 2018-2020</footer>
   </div>
 </body>
 </html>
